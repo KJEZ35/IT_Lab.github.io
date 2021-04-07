@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #283C6D;
+}
+
+/* Header/Blog Title */
+.header {
+  padding-center: 10px;
+  width: 50%;  
+  font-size: 40px;
+  class= "centerImage";	  
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 2000px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>IT LAB SPRING 2021</h2>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Learning Blog Checkpoint 1</h2>
+      <h5> JAN 27, 2021</h5>
+      <p>For my first day I decided to layout a plan on how to go about studying and taking my Security+ examination. I am currently pursuing a commission as an Army Officer and hope to be selected for Army Cyber Command, as a cyber operations officer. The process of being selected is very competitive with a 10% acceptance rate. Having certificates helps candidates stand out among branch recruiters. Before the end of this course I would like to have take the exam, and hopefully be certified. I also decided for my first project to continue work on a setting up an authentication login and password for a website my group built in my Data Management class. For this I will have to look at some php code and see how to populate data from input on a website to a database. Eventually, I want to see how to add additional security measures that can be implemented for the website. In this educational environment, I would also like to see how an SQL injection could effect our website and build the proper defense to mitigate such an attack.
+   </div>
+   <div class="card">
+     <h2>Learning Blog Checkpoint 2</h2>
+     <h5>FEB 3, 2021</h5>
+       <p>
+Today I will start class by taking the Sec+ assessment test to determine where to best focus my studies over the next few weeks. I will then map out a plan of attack on what chapters to begin with and which ones to brush upon. After every chapter, I will take an end-of-chapter quiz in the book and make notecards remember concepts. 
+
+Upon taking my assessment, I realized that there is still a lot that I need to brush upon. The practice test was not very technical. However, there were numerous acronyms that I was not familiar with. I signed up for LinkedIn learning and began watching a series of videos to help with taking the exam. I have to admit that the videos were a little dry compared to Mike Myers A+ exam. `
+
+Lately, I have been devoting a lot of time grasping the concepts in my Machine Learning class. However, I still make the time to read my book and watch the videos online during our course. Overall, I am not as excited about learning the material as I am about learning programming. Over time I noticed that I no longer enjoy simply reading and remembering terms and concepts. Instead, I really want problem-solving activities and skill-building. Weirdly, learning to program is very similar to my time working as an electrician. It requires a problem-solving mindset, and the time can actually go by really fast when you find yourself focused on a task. 
+
+</p>
+  </div>
+    <div class="card">
+      <h2>Learning Blog Checkpoint 3</h2>
+      <h5>FEB 10, 2021</h5>
+      <p>Today I will spend some time working on Chapter 1 of my Sec+ book. I also plan to watch a LinkedIn learning video series to break up the monotony of reading. I will conduct a check on learning by taking the end-of-chapter quiz and keep track of my performance. After my initial assessment, I decided to build a stack of flashcards to learn some acronyms. It seems this certification places a lot of emphasis on memorization of terms over actual hands-on procedures.
+
+As stated in my previous post, studying for this exam has been a challenge not because the material is challenging but because the cloth is very dry. Somehow I need to find a way to make it exciting to learn these concepts. I would like to implement some of these lessons through a hands-on application such as a virtual lab of some sort. I have even thought of setting up an old computer to see if I can attempt different ways of both hacking it and securing it. I figure this would be a safe way for me to learn some of the offensive applications of cyber.  </p>
+    </div>
+    <div class="card">
+      <h2>Learning Blog Checkpoint 4</h2>
+      <h5>FEB 24, 2021</h5>
+      <p>For my  blog, I will stray from the usual certification training. In the first week of class, I tried to set up a blog through WordPress to work on my learning blogs. However, it did not take long to get frustrated, just trying to navigate the website. Personally, it was not very user-friendly, and there seem to be too many tabs with options to customize. Due to this hassle, I figured it would be easier to build a blog from scratch, borrowing some code for the layout. I spoke with Professor Allen regarding this option, and she encouraged me to give it a go. Last semester I was in her class, so I still had access to her server. While I did have issues accessing websites from my folder, I created websites through my old Resell login. The process actually took me a while to figure out. First, I looked for a straightforward layout that I could borrow for started code. After finding the right code, I would then try to create an HTML page through my login on the server. After numerous pages showing an error, I started to see if I could dissect the issue. 
+
+I choose to go through my old work from last semester and see if I could access those pages. Again, I ran into a dead-end. I then tried to access my senior project last semester, where we built a webpage to sell electronics. The page was accessible, leading me to try to access the webpages from the team account. All of the pages worked. Although I yet to bring this to the professor’s attention, I think that my account might be disconnected from the server. 
+
+I had created an HTML file with the necessary formatting code in my account. However, I did not save the webpage where I found it, nor was it letting me simply copy and paste to another file. I spent a lot of time on the command line for data management, so I recalled a way for you to copy or move files around. I created a file in my group account using the “mkdir” command and labeling the file “SPRING_2021”. I then decided to move my file from its original location in my account to the Resell account. I used the “mv” command to move the file into the new directory. 
+After getting my file to the right directory, I started with some clean-up of the created code. I wanted a simple layout that would be clean and easy to follow. I went in and changed the background colors and size of the card boxes. I tried to add some photos, but the formatting was coming out really off, so I decided to focus on finishing the assigned writings first before moving on to more tedious endeavors. Ultimately I was able to make a basic layout of what I wanted. I will attempt to make it more visually appealing as the class goes on. I liked this task because I was not happy with the user-friendly blogs that were available on the web. Out of frustration, I decided to make my own, and although I would say it was not from scratch, it is very distinct from its original code. Not too long ago, it would have never crossed my mind to simply make my own webpage; not would I have had the basic understanding of the command line to move around the directories. Although I am still very much a novice, I am learning, and it is exciting to see my progression and growth in this journey. 
+</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Kevin is currently a Sergeant in the US Army pursuing a Master of Science in Information Studies with a focus on cybersecurity, through the Army’s Green to Gold Active Duty Option commissioning program. Kevin worked in Military Intelligence as an Intelligence Analyst, Security Manager, and Assistant Special Security Representative. Before joining the service, he attended the University of Houston and graduated as a double major in the disciplines of Political Science and Anthropology. Post-graduation he spent time working in municipal government, non-profit community organization, and the energy sector. Ultimately, he decided to follow his calling and joined the United States Army graduating from the Intelligence School at Fort Huachuca. While working as an Analyst he became exposed to the ever-evolving threat of cybersecurity, information security, identity manipulation, and network management. Kevin desires to be at the forefront of this nation’s premier threat from both state and non-state actors. Upon completion of his graduate studies, he looks to receive a commission into the United States Army’s Cyber Operations Command.</p>
+    </div>
+
+</body>
+</html>
+
+	
